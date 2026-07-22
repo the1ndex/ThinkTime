@@ -5,6 +5,8 @@
 
 [简体中文](#简体中文) · [English](#english)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![ThinkTime wallpaper preview](docs/thinktime-wallpaper.png)
 
 ## 简体中文
@@ -65,6 +67,10 @@ ThinkTime 不连接服务器，也不收集使用数据。运行时文件位于 
 - `settings.json`：语言与显示偏好；
 - `wallpaper-a.png` / `wallpaper-b.png`：交替写入的壁纸帧；
 - `diagnostic.log`：本地诊断日志。
+
+### 许可证
+
+除 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 中单独标注的第三方数据与素材外，ThinkTime 的原创源代码和文档采用 [MIT License](LICENSE)。你可以使用、修改、分发或用于商业项目，但必须保留原始版权与许可声明。
 
 ### 技术说明
 
@@ -133,9 +139,12 @@ ThinkTime does not connect to a server or collect usage data. Runtime files are 
 - `wallpaper-a.png` / `wallpaper-b.png` — alternating rendered wallpaper frames;
 - `diagnostic.log` — local diagnostic output.
 
+### License
+
+Except for third-party data and assets identified in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), ThinkTime's original source code and documentation are available under the [MIT License](LICENSE). You may use, modify, distribute, or include them in commercial projects, provided that the original copyright and license notice are retained.
+
 ### How it works
 
 ThinkTime is built with .NET 8 and WPF. It draws GeoJSON map layers, calculates the Sun and terminator locally, reveals night-light imagery through a live mask, and outputs PNG frames to the Windows wallpaper API. It deliberately avoids WorkerW window embedding, which makes desktop context menus, icon selection, and recovery after Explorer restarts more reliable.
 
 Map and texture sources include Natural Earth, Alibaba Cloud DataV GeoAtlas, and NASA Earth Observatory. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for full source, licensing, and attribution details. ThinkPad is a trademark of Lenovo; ThinkTime is an independent project and is not affiliated with or endorsed by Lenovo, NASA, or the data providers.
-
