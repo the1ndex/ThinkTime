@@ -1,0 +1,29 @@
+# Build outputs
+bin/
+obj/
+dist/
+artifacts/
+publish/
+
+# Visual Studio and IDE state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+# Test and coverage outputs
+TestResults/
+coverage/
+*.trx
+
+# Local diagnostics and scratch files
+*.log
+.scratch/
+
+# OS-generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
