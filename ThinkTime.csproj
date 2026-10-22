@@ -13,6 +13,9 @@
     <FileVersion>1.0.0.0</FileVersion>
     <Product>ThinkTime</Product>
     <Description>ThinkPad-inspired live world clock wallpaper for Windows 11</Description>
+    <Copyright>Copyright © 2026 the1ndex</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/the1ndex/ThinkTime</RepositoryUrl>
     <NeutralLanguage>zh-CN</NeutralLanguage>
     <ApplicationIcon>Assets\ThinkTime.ico</ApplicationIcon>
     <ApplicationManifest>app.manifest</ApplicationManifest>

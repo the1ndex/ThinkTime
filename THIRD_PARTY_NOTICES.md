@@ -1,5 +1,7 @@
 # Third-party notices
 
+ThinkTime's original source code and documentation are licensed under the MIT License. The materials listed below retain their respective source terms and attribution requirements and are not relicensed by ThinkTime.
+
 ## Natural Earth
 
 ThinkTime includes the following Natural Earth vector datasets in `Assets/Geodata`:
@@ -26,4 +28,3 @@ This supplemental layer is used to replace Natural Earth's generalized boundary 
 Source: https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/
 
 Credit: NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA Goddard Space Flight Center. NASA should be acknowledged as the source; its name and identifiers must not be used to imply endorsement.
-
